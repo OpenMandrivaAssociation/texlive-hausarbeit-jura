@@ -53,3 +53,11 @@ correct and nicely formatted paper.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-1
++ Revision: 779749
+- Import texlive-hausarbeit-jura
+- Import texlive-hausarbeit-jura
+
