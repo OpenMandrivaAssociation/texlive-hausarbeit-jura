@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-hausarbeit-jura
 Version:	1.1
-Release:	3
+Release:	4
 Summary:	Class for writing "juristiche Hausarbeiten" at German Universities
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hausarbeit-jura
