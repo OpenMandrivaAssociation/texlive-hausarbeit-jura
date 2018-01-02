@@ -1,12 +1,6 @@
-# revision 34009
-# category Package
-# catalog-ctan /macros/latex/contrib/hausarbeit-jura
-# catalog-date 2014-05-13 23:14:59 +0200
-# catalog-license lppl1.3
-# catalog-version 1.1
 Name:		texlive-hausarbeit-jura
-Version:	1.1
-Release:	4
+Version:	1.5
+Release:	1
 Summary:	Class for writing "juristiche Hausarbeiten" at German Universities
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hausarbeit-jura
@@ -35,15 +29,10 @@ beginners to get a correct and nicely formatted paper.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/hausarbeit-jura/hausarbeit-jura.cls
-%doc %{_texmfdistdir}/doc/latex/hausarbeit-jura/README
-%doc %{_texmfdistdir}/doc/latex/hausarbeit-jura/README.txt
-%doc %{_texmfdistdir}/doc/latex/hausarbeit-jura/hausarbeit-demo.bib
-%doc %{_texmfdistdir}/doc/latex/hausarbeit-jura/hausarbeit-demo.tex
-%doc %{_texmfdistdir}/doc/latex/hausarbeit-jura/hausarbeit-jura.pdf
+%{_texmfdistdir}/tex/latex/hausarbeit-jura
+%doc %{_texmfdistdir}/doc/latex/hausarbeit-jura
 #- source
-%doc %{_texmfdistdir}/source/latex/hausarbeit-jura/hausarbeit-jura.dtx
-%doc %{_texmfdistdir}/source/latex/hausarbeit-jura/hausarbeit-jura.ins
+%doc %{_texmfdistdir}/source/latex/hausarbeit-jura
 
 #-----------------------------------------------------------------------
 %prep
