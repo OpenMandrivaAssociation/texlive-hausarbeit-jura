@@ -1,13 +1,13 @@
 Name:		texlive-hausarbeit-jura
-Version:	2.0
+Version:	56070
 Release:	1
 Summary:	Class for writing "juristiche Hausarbeiten" at German Universities
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hausarbeit-jura
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hausarbeit-jura.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hausarbeit-jura.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hausarbeit-jura.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hausarbeit-jura.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hausarbeit-jura.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hausarbeit-jura.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -20,12 +20,12 @@ based on jurabook and jurabib and makes it easy for LaTeX
 beginners to get a correct and nicely formatted paper.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -36,7 +36,8 @@ beginners to get a correct and nicely formatted paper.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
