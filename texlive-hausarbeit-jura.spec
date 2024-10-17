@@ -3,7 +3,7 @@ Version:	56070
 Release:	2
 Summary:	Class for writing "juristiche Hausarbeiten" at German Universities
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hausarbeit-jura
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/hausarbeit-jura
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hausarbeit-jura.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hausarbeit-jura.doc.r%{version}.tar.xz
